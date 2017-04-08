@@ -1,0 +1,20 @@
+.form-group.required label:after {
+	content: "*";
+	color: #f00;
+}
+
+.center-block-full {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.ajax-error {
+	color: #f00;
+}
+.ajax-success {
+	color: #0f0;
+}
